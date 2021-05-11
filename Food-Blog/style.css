@@ -1,0 +1,127 @@
+/* === Typography === */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+nav {
+    color: #000000;
+    text-decoration:none;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    text-transform:uppercase;
+}
+
+h2 {
+    font size: 24pt;
+}
+
+footer {
+    text-transform: oblique;
+    font-size: 10pt;
+    color: #efefef; 
+}
+
+/* === Backgrounds === */
+header {
+    padding: 40px 20px 40px 20px;
+    background-color: #000000;
+}
+
+main {
+    background-color: #cdcdcd;
+    padding: inherit;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #000000;
+    padding: 40px 20px 40px 20px;
+}
+
+#splash {
+    background-image:url("heading.jpg");
+    background-size: cover;
+}
+
+/* === Box Model === */
+
+#splash {
+    height: 400px;
+}
+
+#foodarticles {
+    padding: 30px;
+}
+
+nav {
+    padding: inherit;
+    margin: right;
+}
+
+footer {
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+nav {
+    padding: 25px 20px;
+}
+
+/* === Layout === */
+
+.floatleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+#foodarticles {
+    grid-column-start: 1;
+}
+
+aside {
+    margin-left:35px;  
+}
+
+header {
+    position:fixed;
+    width: 100%;
+}
+
+body {
+    padding-top: 150x;
+}
+
